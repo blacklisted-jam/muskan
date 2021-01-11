@@ -86,7 +86,7 @@ print  """\033[1;96m[¤] \x1b[0;31mASSALAM O ALAIKUM\x1b[0;31m  \033[1;96m
 print "\033[1;97m⚔═══════════════════════☠════════════════════════⚔"
 
 CorrectUsername = "jam"
-CorrectPassword = "muskan"
+CorrectPassword = "jam"
 
 loop = 'true'
 while (loop == 'true'):
